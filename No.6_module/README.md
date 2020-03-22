@@ -8,3 +8,6 @@ The pipeline checking out an application repo, building the app, running static 
 
 Also, In order to practice jenkins - I etup docker containers as build slaves for jenkins, using bibinwilson/jenkins-slave:latest image.
 
+In addition, I create an aws ec2 machine and deploys there jenkins. \n
+Then
+
