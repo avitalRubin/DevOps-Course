@@ -9,5 +9,5 @@ The pipeline checking out an application repo, building the app, running static 
 Also, In order to practice jenkins - I etup docker containers as build slaves for jenkins, using bibinwilson/jenkins-slave:latest image.
 
 In addition, I create an aws ec2 machine and deploys there jenkins. <br>
-Then
+Then, I create a job in jenkins to build the app, and the orchestrator was aws code pipeline.
 
