@@ -1,6 +1,3 @@
-Hello World! (WAR-style)
-===============
+# No.2 module
 
-This is the simplest possible Java webapp for testing servlet container deployments.  It should work on any container and requires no other dependencies or configuration.
-
-Poll SCM work ???
+In this module I was required to fork a pecifiec distorted java application, to fix the application and to build it using maven.
