@@ -1,7 +1,7 @@
-# No.4 module
+# Docker
 
-In this module, I was required to create a docker image for deploying the java application from no.2 module, and to push the image to DockerHub.
+In this module, I was required to create a docker image for deploying the java application from 'Java and Maven' module, and pushing the image to DockerHub.
 
-In order to achieve this, I created a Dockerfile that using tomcat docker image, copyong the application artifact in the suitable directory inside the container.
+In order to achieve this, I created a Dockerfile that using tomcat docker image, copying the application artifact to the suitable directory inside the container.
 
-Also, In order to manage the access to tomcat - java web server, I copyed some config files (- tomcat-user.xml and context.xml.) into the container.
+In addition, In order to manage the tomcat access users, I copied some config files (- tomcat-users.xml and context.xml.) into the container.
