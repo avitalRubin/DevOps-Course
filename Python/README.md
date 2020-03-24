@@ -1,5 +1,5 @@
 # Python
 
-In the python module - of the final project, I was required to write Python scripts. 
+In the python module, I was required to write Python scripts. 
 
-As I am a python language lecturer and one who studied python in a data plane - using Spark for Map Reduce etc, and in the field of analytics and virtualization - the module was, as expected, was very simple for me.
+As I am a python lecturer and one who studied python in a data plane - using Spark, Hadoop, MapReduce etc..., and in the field of analytics and virtualization - the module was, as expected, very simple for me.

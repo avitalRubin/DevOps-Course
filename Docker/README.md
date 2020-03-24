@@ -4,4 +4,4 @@ In this module, I was required to create a docker image for deploying the java a
 
 In order to achieve this, I created a Dockerfile that using tomcat docker image, copying the application artifact to the suitable directory inside the container.
 
-In addition, In order to manage the tomcat access users, I copied some config files (- tomcat-users.xml and context.xml.) into the container.
+In addition, In order to manage the tomcat access users, I replaced some default config files with my edited ones, (- tomcat-users.xml and context.xml.) - inside the container.
