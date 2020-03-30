@@ -1,7 +1,5 @@
 # Vagrnat
 
-In this module, I was required to automate - launching virtual machines with docker installed on them.
+This repository contains scripts for launching virtual machines with docker installed on them.
 
-I had to write vagrant files to launch ubuntu and centos virtual machines - servers.
-
-I had also to write and to run a script on the system bootstarp to install docker appropriate to the linux distribution.
+The repo contains vagrant files for ubuntu and centos , and also the scripts that will be run on the system bootstarp for installing docker appropriate to the linux distribution.
