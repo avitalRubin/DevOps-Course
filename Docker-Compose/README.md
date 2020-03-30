@@ -1,5 +1,3 @@
-# No.5 module
+# Docker Compose
 
-In this module, I was required to use docker compose in order to deploy wordperess and mysql.
-
-In order to achieve this, I wrote a docker compose file that creates both wordpress and mysql docker containers.
+The directory contains docker compose file to deploy wordpress and mysql.
