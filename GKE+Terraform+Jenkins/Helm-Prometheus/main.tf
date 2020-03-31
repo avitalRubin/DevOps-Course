@@ -4,7 +4,7 @@ resource "helm_release" "promethues_grafana" {
 
   name       = "prom-10"
   repository = "stable"
-  chart      = "prometheus-operator"
+  chart      = "prometheus_grafana"
   timeout    = 1200
 
   values = [
