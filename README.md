@@ -1,6 +1,6 @@
 # DevOps-Course
 
-Deploying Own App - <br>
+Deploying Own App Via K8S- <br>
 Docker Compose - OK !!!!!<br>
 Docker - OK!!!!!<br>
 Google Kubernetes Engine + Terraform + Jenkins - OK!!!!!<br>
