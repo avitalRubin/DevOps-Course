@@ -2,7 +2,7 @@ provider helm {}
 
 resource "helm_release" "promethues_grafana" {
 
-  name       = "prom-10"
+  name       = "promethues_grafana"
   repository = "stable"
   chart      = "prometheus_grafana"
   timeout    = 1200
