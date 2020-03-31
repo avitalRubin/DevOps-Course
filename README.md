@@ -6,7 +6,7 @@ Docker - OK!!!!!<br>
 Google Kubernetes Engine + Terraform + Jenkins - OK!!!!!<br>
 Java And Maven - <br>
 Jenkins Jobs - <br>
-Jenkins Pipeline - <br>
+Jenkins Pipeline - OK!!!!!<br>
 Kubespray - OK!!!!!<br>
 Python - OK!!!!!<br>
 Vagrant - OK!!!!!<br>
