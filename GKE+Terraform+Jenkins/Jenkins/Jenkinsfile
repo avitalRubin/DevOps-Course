@@ -19,7 +19,8 @@ node('Google-Cloud'){
         sh label: '', script: '''cd deploy
                                  terraform init
                                  terraform plan 
-                                 terraform apply -auto-approve'''
+                                 terraform apply -auto-approve
+                                 cd ..'''
     }
     
 }
