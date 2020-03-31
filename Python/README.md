@@ -1,5 +1,5 @@
 # Python
 
-In the python module, I was required to write Python scripts. 
+The repository contains some Python scripts that I needed to write in the DevOps course.
 
-As I am a python lecturer and one who studied python in a data plane - using Spark, Hadoop, MapReduce etc..., and in the field of analytics and virtualization - the module was, as expected, very simple for me.
+Because I am a python lecturer and studied python in the filed of data - when I used Spark, Hadoop, MapReduce etc..., and also in the field of data analytics and data virtualization - the module was, as expected, very simple for me.
