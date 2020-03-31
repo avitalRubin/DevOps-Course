@@ -1,3 +1,3 @@
 # Docker Compose
 
-The directory contains docker compose file to deploy wordpress and mysql.
+The directory contains a docker compose file for Wordpress and MySQL deployment.
