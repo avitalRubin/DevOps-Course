@@ -4,3 +4,4 @@ Vagrnat - OK<br>
 Google Cloud - OK<br>
 Docker Compose - OK<br>
 Docker - OK<br>
+Google Cloud - OK<br>
