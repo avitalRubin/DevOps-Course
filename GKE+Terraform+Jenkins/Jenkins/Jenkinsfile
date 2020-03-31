@@ -1,0 +1,25 @@
+node('Google-Cloud'){
+    
+    stage('Checking out needed files'){
+        checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'Git-Creds', url: 'https://github.com/SaraBenShabbat/GKE.git']]])
+    }
+    
+    stage('Provisioning GKE'){
+        withEnv(['GCLOUD_PATH=/root/google-cloud-sdk/bin']) {
+            sh label: '', script: '''cd cluster
+                                     terraform init
+                                     terraform plan
+                                     terraform apply -auto-approve
+                                     $GCLOUD_PATH/gcloud container clusters get-credentials solid-justice-272605-cluster --zone us-central1-a --project solid-justice-272605
+                                     cd ..'''
+        }
+    }
+    
+    stage('Deploying own app'){
+        sh label: '', script: '''cd deploy
+                                 terraform init
+                                 terraform plan 
+                                 terraform apply -auto-approve'''
+    }
+    
+}
