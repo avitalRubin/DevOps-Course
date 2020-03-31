@@ -1,4 +1,4 @@
 # DevOps-Course
 
-Vagrnat - OK
+Vagrnat - OK<br>
 Google Cloud - OK
