@@ -4,9 +4,13 @@ The repository contains terraform HCL's files for provisioning datacenter infras
 
 The directory named 'Jenkins' contains a jenkinsfile that:
 1. Provisioning GKE cluster.
-2. Deploying my java application on the cluster via deployment using load balancer. (- The application docker image is stored in Google docker private registry.) 
+2. Deploying Helm Prometheus-Operator chart.
+3. Deploying my java application on the cluster via deployment using load balancer. (- The application docker image is stored in Google docker private registry.)
 
-The directory named 'GKE' contains HCL's files for Provisioning GKE cluster.
+
+The directory named 'GKE' contains HCL files for Provisioning GKE cluster.
+
+The directory named 'Deploying-Prometheus' contains a script for installing helm and HCL files for deploying Helm Prometheus-Operator chart.
 
 The directory named 'MongDB' contains HCL file for deploying Helm MongDB statefull chart. (- Require helm v3.1.2)
 

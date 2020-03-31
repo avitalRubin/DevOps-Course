@@ -15,6 +15,15 @@ node('Google-Cloud'){
         }
     }
     
+    stage('Deploying Prometheus via Helm'){
+        sh label: '', script: '''cd helm-prometheus
+                                 bash helm-installation.sh
+                                 terraform init
+                                 terraform plan
+                                 terraform apply -auto-approve
+                                 cd ..'''
+    }
+    
     stage('Deploying own app'){
         sh label: '', script: '''cd deploy
                                  terraform init
