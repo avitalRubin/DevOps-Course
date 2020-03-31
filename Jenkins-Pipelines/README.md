@@ -1,4 +1,4 @@
-# Jenkins-pipeline
+# Jenkins pipelines
 
 The repository contains some jenkinsfiles that I wrote.
 
