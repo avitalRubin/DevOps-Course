@@ -8,6 +8,6 @@ Java And Maven - <br>
 Jenkins Jobs - <br>
 Jenkins Pipeline - <br>
 Kubespray - OK!!!!!<br>
-Python - <br>
+Python - OK!!!!!<br>
 Vagrant - OK!!!!!<br>
 Minikube - OK!!!!!<br>
