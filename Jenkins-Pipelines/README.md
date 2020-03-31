@@ -1,0 +1,23 @@
+# Jenkins-pipeline
+
+The repository contains some jenkinsfiles that I wrote.
+
+The dirctory named 'FirstPipeline':
+The jenkins pipeline is comprised 6 stages.
+
+The pipeline: checking out the desired code of the app, building the the app using maven, running code analysis, checking out the appropriate Dockerfile foe the app and building it, tagiing the image, pushing the docker image into Nexus docker private registry and notifying slack about the finish status.
+
+The directory named 'SecondPipeline':
+
+
+The directory named 'ThirdPipeline':
+
+
+The directory named 'FourthPipeline':
+
+
+
+Also, In order to practice jenkins - I setup docker containers as build slaves for jenkins, using bibinwilson/jenkins-slave appropriate image for this task.
+
+In addition, I created an aws ec2 machine and deploys there jenkins. <br>
+Then, I also created a job in jenkins to build the app, and the orchestrator was the aws code pipeline.
