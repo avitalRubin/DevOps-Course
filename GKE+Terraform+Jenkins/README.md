@@ -2,7 +2,7 @@
 
 The repository contains terraform HCL's files for provisioning datacenter infrastructure on Goodle Cloud.
 
-The directory named 'Jenkins' contains a jenkinsfile that:
+The directory named 'Jenkins' contains a jenkinsfile for CD pipeline:
 1. Provisioning GKE cluster.
 2. Deploying Helm Prometheus-Operator chart.
 3. Deploying my java application on the cluster via deployment using load balancer. (- The application docker image is stored in Google docker private registry.)
