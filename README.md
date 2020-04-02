@@ -10,5 +10,5 @@ The repository contains my DevOps Portfolio, organized by directories with infor
 
 
 
-Java And Maven - <br>
+
 Jenkins Jobs - <br>
